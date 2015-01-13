@@ -18,7 +18,7 @@ a specifer as passed to `npm install` et al, eg `npm@next` or `npm@^2.0.3`
 * *tracker* **object** -- **(optional)** An are-we-there-yet tracker group as
   provided by `npm.log.newGroup()`.
 
-* *callback* **function(er, package)** -- Called when the package information
+* *callback* **function (er, package)** -- Called when the package information
   has been loaded. `package` is the object for of the `package.json`
   matching the requested spec.  In the case of named packages, it comes from
   the registry and thus may not exactly match what's found in the associated
